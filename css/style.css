@@ -1,0 +1,58 @@
+:root {
+    --light1: rgb(238, 238, 238);
+    --light2: rgb(0, 173, 181);
+    --dark1: rgb(34, 40, 49);
+    --dark2: rgb(57, 62, 70);
+}
+
+body {
+    min-height: 100vh;
+}
+.navbar {
+    background-color: var(--light1);
+}
+
+.header {
+    background-color: var(--light2);
+    padding: 200px 0 0 0;
+}
+
+.header .row {
+    height: 200px;
+}
+
+.greeting {
+    margin: 200px 0;
+}
+
+.greeting .h1,
+footer .h1 {
+    font-size: 5em !important;
+    font-weight: 700;
+}
+
+.greeting .rounded-circle,
+footer .rounded-circle {
+    background-color: var(--dark2);
+    height: 200px;
+    width: 200px;
+}
+
+/* .project-list h3 {
+    text-decoration: underline;
+} */
+
+.project-list a {
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+footer {
+    margin: 350px 0 150px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
