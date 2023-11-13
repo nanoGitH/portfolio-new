@@ -7,9 +7,10 @@
 
 body {
     min-height: 100vh;
+    background-color: var(--light1);
 }
 .navbar {
-    background-color: var(--light1);
+    background-color: var(--dark1);
 }
 
 .header {
@@ -55,4 +56,50 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
+}
+
+
+
+/* Media */
+
+@media (max-width: 768px) {
+    .greeting .h1,
+    footer .h1 {
+        font-size: 2em !important;
+        font-weight: 700;
+    }
+
+    .greeting .rounded-circle,
+    footer .rounded-circle {
+        background-color: var(--dark2);
+        width: auto;
+        height: auto;
+        padding: 0 10px;
+        border-radius: 50px !important;
+    }
+
+    .greeting .rounded-circle p,
+    footer .rounded-circle p {
+        margin: 0;
+        font-weight: normal;
+    }
+    footer .rounded-circle p {
+        font-size: 20px;
+    }
+
+    .project-list a {
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    footer {
+        margin-bottom: 50px;
+    }
+
+    footer .footer-link {
+        padding-top: 20px;
+        text-align: center;
+    }
+
 }
